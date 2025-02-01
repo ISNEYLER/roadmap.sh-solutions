@@ -8,3 +8,5 @@ En este repositorio gradualmente ire subiendo todos los proyectos propuestos en 
 
 
 ### Realizados por mi
+
+- [Single-Page CV](https://github.com/ISNEYLER/roadmap.sh-solutions/tree/main/Frontend%20Projects/01-Single-Page%20CV)
