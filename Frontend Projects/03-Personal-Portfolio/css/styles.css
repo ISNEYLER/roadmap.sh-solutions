@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 10px;
+  font-family: "Roboto", serif;
+}
+body h1, body h2, body h3, body h4, body h5 {
+  font-family: "Gloria Hallelujah", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+body a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+body main a {
+  margin-bottom: 10px;
+}
+body h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+body h3 {
+  margin-bottom: 10px;
+}
+body p {
+  margin-bottom: 10px;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  height: 370px;
+  border: 4px solid black;
+}
+header nav ul {
+  list-style: none;
+  list-style-position: inside;
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px;
+}
+header nav ul li {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+header nav ul .li-name {
+  margin-right: auto;
+}
+header section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 110px 50px 110px 50px;
+}
+header section p {
+  margin: 0px;
+  color: #939aa1;
+}
+header section h1 {
+  margin-bottom: 20px;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+main section {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+main .reviews {
+  flex: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+main .reviews h2 {
+  flex: 100%;
+}
+main .reviews article {
+  flex: 1;
+  flex-wrap: wrap;
+  border: 3px solid black;
+  border-radius: 15px;
+  margin: 5px 10px 5px 10px;
+  padding: 10px;
+}
+main .reviews article p {
+  text-align: center;
+}
+
+@media screen and (max-width: 700px) {
+  header {
+    height: 350px;
+  }
+  header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  header nav ul li {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  header nav ul .li-name {
+    margin: 20px 0 10px 0px;
+    flex: 100%;
+    text-align: center;
+  }
+  header .header-section {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 5px;
+    text-align: center;
+  }
+  header .header-section h1 {
+    flex: 100%;
+  }
+  header .header-section p {
+    flex: 100%;
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  main section {
+    padding: 20px;
+    display: flex;
+    flex: 100%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  main .reviews {
+    flex: 100%;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  main .reviews h2 {
+    flex: 100%;
+  }
+  main .reviews article {
+    flex: 1;
+    flex-wrap: wrap;
+    border: 3px solid black;
+    border-radius: 15px;
+    margin: 5px 10px 5px 10px;
+    padding: 10px;
+  }
+  main .reviews article p {
+    text-align: center;
+  }
+}/*# sourceMappingURL=styles.css.map */
